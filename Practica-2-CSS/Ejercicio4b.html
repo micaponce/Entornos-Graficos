@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <link rel="stylesheet" href="EstilosEj4.css" type="text/css">
+</head>
+<body class="contenido">
+    <!--Que la clase contenido esté en el body hace que parte del estilo 
+    se herede a todos los elementos internos
+    -->
+    <p> Este es un texto................</p> 
+    <!--Hereda 10px de contenido pero gana p{..} porque es mas especifico
+    hereda el font-weigth de contenido, por lo tanto está en negrita
+    color negro lo hereda de p{..}
+    -->
+    <table> 
+        <tr> 
+            <td>Y esta es una tabla.......</td> 
+        </tr> 
+        <!-- Hereda de contenido desde el body, color verde, 14 px y negrita
+        -->
+        <tr> 
+            <td><a href="http://www.google.com.ar">con un enlace</a></td> 
+        </tr> 
+        <!-- Hereda negrita y tamaño de contenido del body
+         pero el color cambia segun las pseudoclases-->
+    </table>
+</body>
+</html>
+<!--Las diferencias entre ejercicios es que en el b se aplica en el mismo body
+el estilo "contenido" lo que hace que los elementos hereden su contenido-->

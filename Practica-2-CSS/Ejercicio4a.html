@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <link rel="stylesheet" href="EstilosEj4.css" type="text/css">
+</head>
+<body>
+        <p class="contenido" style="font-weight: normal;"> 
+            Este es un texto ...............</p> 
+            <!--En este sector se aplican las reglas 
+            *{color: green;}
+            p{font-family: arial,helvetica;font-size: 10px;color:black;}
+            .contenido{font-size: 14px;font-weight: bold; }
+            y la que posee en la misma declaracion del párrafo
+            Entre estas las que mas peso tienen en color p{...} porque es mas especifico y le da color negro
+            en tamaño .contenido dandole un texto de 14 px
+            en grosor gana el style ya que tiene mayor prioridad
+        -->
+        <table> 
+            <tr> 
+                <td>Y esta es una tabla.......</td> 
+            </tr> 
+            <!--Como no hay ninguna regla especifica se aplica la de *{color:green;}
+            -->
+            <tr> 
+                <td><a href="http://www.google.com.ar">con un enlace</a></td> 
+            </tr> 
+            <!--El color depende del estado, si no lo visitaron gris, visitado azul, mouse por encima
+            fucsia y mientras se hace clic rojo.
+            Las reglas a: tienen prioridad por sobre *
+            -->
+        </table> 
+
+</body>
+</html>

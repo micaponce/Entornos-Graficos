@@ -1,0 +1,16 @@
+* {color:green; } 
+/* * significa todos los lementos
+Todo el texto será verde, salvo que otra regla mas especifica lo sobreescriba*/
+a:link {color:gray }
+/* Se aplica a los enlaces no visitados, el link aparecera gris*/ 
+a:visited{color:blue } 
+/* Se aplica a los enlcaces visitados, el link aparecera azul*/
+a:hover {color:fuchsia } 
+/*Cuando el mouse pasa sobre el enlace, el link cambia a fucsia*/
+a:active {color:red } 
+/*Mientras se hace clic sobre el enlace el link se ve rojo*/
+p {font-family: arial,helvetica;font-size: 10px;color:black; } 
+/*Se aplica a todos los <p>, letra con fuente arial o helvetica, tamaño 10px y color de letra negro*/
+.contenido{font-size: 14px;font-weight: bold; }
+/*Se aplica a cualquier elemento con la clase = "contenido"
+tamaño de la letra 14px, texto en negrita*/

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios HTML</title>
+</head>
+<body>
+    <h1>Practica 1 - HTML</h1>
+    <H2>EJERCITACIÓN</H2>
+    <h3> 1.	¿Qué es HTML, cuando fue creado, cuáles fueron las distintas versiones y cuál es la última? </h3>
+    <p>HTML son las siglas en inglés de <i>HyperText Markup Language</i> (Lenguaje de Marcas de Hipertexto). 
+        Es el lenguaje de marcado principal utilizado para la elaboración de páginas web y actúa como 
+        un estándar que define la estructura básica y el código necesario para presentar contenido como
+         texto, imágenes, videos y juegos. No se considera un lenguaje de programación, ya que no posee
+          funciones aritméticas ni variables; su función es puramente descriptiva mediante el uso de 
+          etiquetas</p>
+    <p>Fue desarrollado originalmente por Tim Berners-Lee a principios de la década de los 90 y se 
+        popularizó masivamente gracias al navegador Mosaic en 1993.</p>
+    <ul>
+        <li>HTML (1990-1995): Durante sus primeros cinco años, el lenguaje pasó por una serie de
+             revisiones y extensiones alojadas inicialmente en el CERN y luego en el IETF. Su propósito
+              original era describir semánticamente documentos científicos</li>
+        <li>HTML 3.0 (1995): Fue un primer intento del W3C por extender el lenguaje, pero resultó
+             frustrado y no llegó a consolidarse como estándar</li>
+        <li>HTML 3.2 (1997): Tras el fracaso de la versión 3.0, se adoptó un enfoque más pragmático
+             que se completó en 1997, permitiendo una adopción más uniforme entre los navegadores de la época</li>
+        <li>HTML 4.01 (1997): Se publicó poco después de la versión 3.2 en el mismo año. Es una versión
+             de alto rigor técnico que introdujo las Declaraciones de Tipo de Documento (DTD) en variantes
+              Transitoria (más flexible) y Estricta</li>
+        <li>XHTML 1.0 (2000): Consistió en una reformulación de HTML 4.01 bajo las reglas de XML. No 
+            agregó funciones nuevas, sino que se centró en una nueva forma de serialización del código para 
+            hacerlo más estructurado</li>
+        <li>XHTML 2.0 (Posterior a 2000): Fue un proyecto del W3C que buscaba un lenguaje nuevo que 
+            no era compatible con las versiones anteriores de HTML y XHTML. Debido a este conflicto con 
+            la dirección de la web, la propuesta fue finalmente rechazada en 2004</li>
+        <li>HTML 5 (2012 - Actualidad): Es la quinta y última revisión importante del lenguaje.
+             Aunque su desarrollo comenzó fuera del W3C en 2004 (por el grupo WHATWG), el W3C se unió 
+             al proyecto en 2007. En 2012 se presentó el equipo para crear la Recomendación oficial 
+             HTML5 es la versión estándar actual adoptada por todos los navegadores modernos 
+             (Chrome, Firefox, Safari, Opera).
+            Sus principales innovaciones incluyen:
+            <ul style="list-style-type: circle;">
+                <li>Multimedia Nativa: Permite añadir audio y video con las etiquetas
+                    < audio >  y  < video >  sin necesidad de plugins externos como Flash</li>
+                <li>Gráficos y Animaciones: Introduce la etiqueta < canvas > para crear
+                     dibujos y animaciones 2D mediante JavaScript</li>
+                <li>Semántica mejorada: Incorpora etiquetas como < header >, < nav >, 
+                    < section > y < footer > que ayudan a organizar el código de forma más
+                         clara y descriptiva</li>
+                <li>Formularios avanzados: Añade validaciones automáticas (atributo
+                     required), tipos de entrada específicos (email, url, date, range)
+                      y foco automático (autofocus)</li>
+                <li>APIs y Almacenamiento: Incluye capacidades de geolocalización
+                     y Web Storage (localStorage), permitiendo guardar datos en el 
+                     navegador de forma más segura que con las antiguas cookies</li>
+                <li>Diseño Adaptativo: Es totalmente compatible con dispositivos 
+                    móviles, permitiendo que las páginas se adapten a diferentes pantallas</li>
+                <li>Actualmente, mientras el W3C publica recomendaciones numeradas, el 
+                    grupo WHATWG mantiene HTML como un estándar vivo (Living Standard)
+                     en constante actualización</li>
+            </ul>
+         </li>
+    </ul>
+    <h3>2.	¿Cuáles son los principios básicos que el W3C recomienda seguir para la 
+        creación de documentos con HTML? </h3>
+    <ul>
+        <li><b>Interoperabilidad</b>: El objetivo principal es que los documentos HTML
+             funcionen correctamente en diferentes navegadores y plataformas. Al seguir
+              estándares comunes, se evita tener que desarrollar múltiples versiones de
+               un mismo documento, reduciendo costos y esfuerzos</li>
+        <li><b>Independencia del dispositivo: </b>Los documentos deben crearse bajo la 
+            premisa de que cualquier tipo de dispositivo (PCs, teléfonos móviles, 
+            dispositivos de mano o sistemas de voz) debe ser capaz de acceder y usar 
+            la información de la Web</li>
+        <li><b>Separación de Contenido y Presentación: </b>El W3C recomienda que el HTML se encargue
+             únicamente de la estructura y el contenido, mientras que las Hojas de Estilo
+              (CSS) asuman la responsabilidad de la presentación (fuentes, colores, alineación). 
+              Por esta razón, el W3C ha ido "desaprobando" etiquetas y atributos que solo servían 
+              para dar formato visual</li>
+        <li><b>Uso de Convenciones Estándar: </b>La Web depende de que tanto autores como empresas
+             compartan las mismas convenciones y especificaciones del lenguaje para garantizar
+              un crecimiento ordenado a largo plazo</li>
+    </ul>
+    <h3>3.	En las Especificaciones de HTML, ¿cuándo un elemento o atributo se considera desaprobado? 
+        ¿y obsoleto?  </h3>
+    <ul>
+        <li><b>Desaprobado:</b> Un elemento que se desaconseja usar porque existen mejores formas de lograr 
+            el mismo efecto (usualmente mediante CSS), pero que aún es soportado por compatibilidad.</li>
+        <li><b>Obsoleto:</b> Elementos que ya no forman parte de la especificación oficial y pueden
+             no ser interpretados por los navegadores modernos.</li>
+    </ul>
+    <h3>4.	Qué es el DTD y cuáles son los posibles DTDs contemplados en la especificación de HTML 4.01? </h3>
+    <p>El DTD (<i>Document Type Declaration</i> o Declaración del Tipo de Documento) es una instrucción que se ubica 
+        en la primera línea de un archivo HTML, apareciendo antes de la etiqueta de apertura < html >. 
+        Su función principal es indicar al navegador bajo qué especificación o estándar de HTML está construido 
+        el documento para que este pueda interpretarlo correctamente.</p>
+    <h3>5.	¿Qué son los metadatos y cómo se especifican en HTML?</h3>
+    <p>Son datos que describen información sobre el documento (como palabras clave o expiración) que no se
+         muestran al usuario. Se especifican con la etiqueta < meta > dentro de la sección < head >   < / head ></p>
+</body>
+</html>

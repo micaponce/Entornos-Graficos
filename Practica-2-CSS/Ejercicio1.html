@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 CSS</title>
+</head>
+<body>
+    <h1>Practica 2 - CSS</h1>
+    <H2>EJERCITACIÓN</H2>
+    <h3>1. ¿Qué es CSS y para que se usa? </h3>
+    <p><b>CSS</b> son las siglas de <b>Cascading Style Sheets</b> (Hojas de Estilo en Cascada)
+        Es una tecnología utilizada para controlar la apariencia de una página web, permitiendo separar la información (contenido en HTML) del diseño o formato
+        Se usa para especificar aspectos visuales como:</p>
+        <ul>
+            <li>Fuentes y tamaños de texto</li>
+            <li>Colores de fondo y de fuente</li>
+            <li>Espaciado entre textos y recuadros (márgenes y rellenos)</li>
+            <li>Posicionamiento de elementos (texto e imágenes) en la página</li>
+        </ul>
+    <h3>2. CSS utiliza reglas para las declaraciones de estilo, ¿cómo funciona? </h3>
+    <p>Las reglas de estilo funcionan mediante una sintaxis especial compuesta por tres partes fundamentales</p>
+         <ul>
+            <li>Selector: Indica al navegador qué parte del documento se verá afectada (por ejemplo, una etiqueta como < h1 >)</li>
+            <li>Propiedad: Especifica qué aspecto visual se va a cambiar (por ejemplo, color)</li>
+            <li>Valor: Establece la configuración específica para la propiedad (por ejemplo, red)</li>
+        </ul>   
+        <p>Funcionamiento: Las propiedades se agrupan dentro de llaves {} y cada una debe terminar con un punto y coma (;) para separarla de la siguiente</p>
+    <h3>3. ¿Cuáles son las tres formas de dar estilos a un documento?</h3>
+    <p>Es posible asociar reglas de estilo a un documento HTML de tres maneras</p>
+        <ul>
+            <li> Nivel de elemento (Inline): Se definen directamente sobre la etiqueta HTML usando el atributo style (ej. < h1 style="...">)
+                Es la forma menos recomendada</li>
+                <li>Nivel de página (Interno): Se escriben dentro de la sección < head > del documento, encerradas entre las etiquetas < style > y < /style ></li>
+                <li>Archivo externo: Se agrupan las reglas en un archivo independiente con extensión .css
+                 Este archivo se vincula al HTML mediante la etiqueta < link rel="StyleSheet" ... > en el encabezado</li> 
+        </ul>
+    <h3>4. ¿Cuáles son los distintos tipos de selectores más utiliados? Ejemplifique cada uno</h3>
+    <p>Los selectores mas comunes son:</p>
+    <ul>
+        <li><b>Selector de etiqueta (Tipo):</b> Afecta a todos los elementos de una misma marca HTML. Ejemplo <i>p { color : red; } </i> </li>
+        <li><b>Agrupamiento de Selectores:</b> Permite aplicar la misma regla a varias etiquetas a la vez separándolas por comas. Ejemplo: <i> h1,h2,h3 { color: red; }</i></li>
+        <li><b>Selector de ID:</b> Se utiliza para aplicar estilos a un único elemento específico que posea un identificador único. 
+            En el código se representa con un numeral (#). Ejemplo: <i>#recuadro { background-color: yellow; }</i></li>
+        <li><b>Selector de Clase:</b> Permite dar a los elementos un nombre identificativo que puede ser usado por varios elementos para compartir un estilo
+            . Se representa con un punto (.). Ejemplo: <i>.editor-note { font-size: 1.2em; }</i></li>
+    </ul>
+    <h3>5. ¿Qué es una pseudo-clase?¿Cuáles son las mas utilizadas aplicadas a vínculos?</h3>
+    <p>Las pseudo-clase se utilizan para definir el estilo de un elemento en un estado especial (como cuando el muouse pasa
+        por encima). Las mas utilizadas en vinculos suelen ser: 
+    <i>:link, :visited, :hover, :active</i> </p>
+    <h3>6. ¿Que es la herencia?</h3>
+    <p>Herencia hace referencia a que los "hijos" dentro de la estructura HTML adoptan
+        automaticamente ciertas propiedades de estilo definidas en sus elementos
+        (como el tipo de letra o el color definido en el body).
+    </p>
+    <h3>¿En qué consiste el priceso denominado cascada?</h3>
+    <p>El proceso de cascada es el mecanismo que describe cómo se aplican y priorizan los estilos cuando existen múltiples definiciones para un mismo elemento
+. Consiste en la capacidad de definir estilos en diferentes niveles que se van "sumando" o sobreescribiendo según su alcance</p>
+</body>
+</html>

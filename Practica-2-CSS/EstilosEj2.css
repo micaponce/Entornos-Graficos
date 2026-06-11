@@ -1,0 +1,26 @@
+p#normal { 
+font-family: arial,helvetica; 
+font-size: 11px; 
+font-weight: bold; 
+} 
+/*font-family define un tipo de letra de un elemento, en este caso con las fuentes arial y helvetica.
+font-size se utiliza para establecer el tamaño del texto, en esta caso 11px.
+font-weight define el grosor y peso de una fuente, en este caso bold que es una negrita estandar. 
+Al tener p#normal se aplica solo al elemento <p> que tenga id="normal"*/
+*#destacado { 
+border-style: solid; 
+border-color: blue; 
+border-width: 2px; 
+} 
+/*border-style define el tipo de linea del borde de un elemento, en este caso solid es un borde continuo
+border-color define el color de los bordes de un elemento, en este caso blue=azul
+border-widht define el grosor de los bordes de un elemento, en este caso 2px
+*#destacado --> el * significa cualquier elemento que tenga el id="destacado"
+se aplica tanto al parrafo como a la tabla ya que ambos tienen el id="destacado"*/
+#distinto { 
+background-color: #9EC7EB; 
+color: red; 
+} 
+/*background-color define el color de fondo de un elemento, en este caso elige el #9EC7EB 
+color define el color del texto, en este caso red=rojo
+#distinto se aplica al elemento que tenga de id="distinto" */

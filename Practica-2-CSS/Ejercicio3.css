@@ -1,0 +1,17 @@
+p.quitar { 
+color: red; 
+} 
+/*color define el color del texto, en este caso rojo
+p.quitar se aplica solo a los elementos <p> que tengan la clase quitat
+en el de class = "quitar importante" tambien se aplica*/
+*.desarrollo { 
+font-size: 8px; 
+} 
+/*font-size establece el tamaño del texto, en este caso 8px que recude el tamaño del texto 
+*.desarrollo --> el * significa cualquier elemento con clase desarrollo*/
+.importante { 
+font-size: 20px; 
+} 
+/*dont-size establece el tamaño del texto en este caso 20px que agranda el texto
+se aplica tambien en el que tiene class ="quitar importante"
+.importante se aplica a cualquier elemento con la clase importante*/
